@@ -54,5 +54,5 @@
   <Config Name="Redis Port" Target="6379" Default="6379" Mode="tcp" Description="Redis Port" Type="Port" Display="always" Required="true" Mask="false">6379</Config>
   <Config Name="ALLOW_EMPTY_PASSWORD" Target="ALLOW_EMPTY_PASSWORD" Default="yes|no" Mode="" Description="ALLOW_EMPTY_PASSWORD" Type="Variable" Display="always" Required="true" Mask="false">yes</Config>
   <Config Name="Password" Target="REDIS_PASSWORD" Default="" Mode="" Description="If you want password put ALLOW_EMPTY_PASSWORD to no, then put the password here." Type="Variable" Display="always" Required="false" Mask="false">I8EPtbwSqdmf</Config>
-  <Config Name="DATA_PATH" Target="/bitnami/" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /bitnami/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/redis/bi</Config>
+  <Config Name="DATA_PATH" Target="/bitnami/" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /bitnami/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/redis/bitnami/</Config>
 </Container>
