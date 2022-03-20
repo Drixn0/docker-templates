@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>KMS</Name>
-  <Repository>teddysun/kms</Repository>
-  <Registry>https://hub.docker.com/r/teddysun/kms</Registry>
+  <Name>kms</Name>
+  <Repository>drixn/kms</Repository>
+  <Registry>https://hub.docker.com/r/drixn/kms</Registry>
   <Network>br0</Network>
   <MyIP>10.10.10.250</MyIP>
   <Shell>sh</Shell>
